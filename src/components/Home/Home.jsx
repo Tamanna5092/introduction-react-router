@@ -9,6 +9,7 @@ const Home = () => {
     console.log(location);
     return (
         <div>
+            <h3>My home page</h3>
             <Header></Header>
             {
                 navigation.state === "loading" ?
